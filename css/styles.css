@@ -1,0 +1,196 @@
+/* bcg голова и футерцвет #2F303A
+колір наша команда #F5F4FA
+цвет основного текста #212121
+цвет вторичного текста #757575
+цвет теста контактов (футер)rgba(255, 255, 255, 0.6)
+#2196F3
+#000000
+цвет фона основного #FFFFFF
+цвет фона вторичного #F5F4FA
+#188CE8 */
+
+:root{
+    --primary-text-color: #212121;
+    --secondary-text-color: #757575;
+    --button-txt-color: #FFFFFF;
+    --primery-button-bgc: #2196F3;
+    --secondary-button-bgc: #F5F4FA
+}
+body {
+    font-family: Roboto, sans-serif;
+    color: var(--primary-text-color);
+}
+
+/*сброс умолчания*/
+.list {
+    list-style: none;
+}
+.nolink {
+    text-decoration: none;
+}
+.site-nav .link.current {
+    color: #2196F3;
+}
+
+/*шапка сайту*/
+.logo {
+    color: #000000;
+    font-family: Raleway;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+}
+.web {
+    color: #2196F3;
+}
+.studio {
+    color: #FFFFFF;
+}
+/*навігація сайту шакпи*/
+.site-nav .link {
+    color: #212121;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+}
+/*Взаємодія*/
+.site-nav .link:hover,
+.site-nav .link:focus,
+.contact a:hover,
+.contact a:focus {
+    color: #2196F3;
+}
+.button-primary:hover,
+.button-primary:focus {
+   background-color:#188CE8;
+}
+
+/*контакты из шапки сайта*/
+.contact a{
+    color: #757575;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+}
+/*голова сайта*/
+.head {
+    background-color: #2F303A;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+}
+.head-titel {
+    color: #FFFFFF;
+}
+/*Кнопка*/
+.button-primary {
+    color: var(--button-txt-color);
+    background-color: var(--primery-button-bgc);
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+/*кнопки фільтру*/
+.buttons{
+    color: var(--primary-text-color);
+    background-color: var(--secondary-button-bgc);
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    letter-spacing: 0.03em;
+}
+.buttons:hover,
+.buttons:focus{
+    background-color: #2196F3;
+    color: #FFFFFF;
+}
+.pointer {
+    cursor: pointer;
+}
+/*Фундаментальные принципы работы*/
+.section-titel {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+.work-text {
+    color: var(--secondary-text-color);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+}
+/*наша команда і робота*/
+.team {
+    background-color: #F5F4FA;
+}
+.section-team p{
+    color: var(--secondary-text-color);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.18;
+    letter-spacing: 0.03em;
+} 
+.worker {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.18;
+    letter-spacing: 0.03em;
+}
+.titel-work {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+.projects {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+}
+.projects p{
+    color: var(--secondary-text-color);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.87;
+    letter-spacing: 0.03em;
+}
+/*Футер*/
+footer{
+    background-color: #2F303A;
+}
+.address {
+    font-style: normal;
+}
+.streat {
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+}
+.contact-footer {
+    color: rgba(255, 255, 255, 0.6);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.70;
+    letter-spacing: 0.03em;
+}
+.address a:hover,
+.address a:focus{
+    color: #2196F3;
+}
