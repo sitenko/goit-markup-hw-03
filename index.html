@@ -10,59 +10,66 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
         rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css">
     <link rel="stylesheet" href="./css/styles.css">
 </head>
 
 <body >
     <!--Шапка сайту-->
-    <header>
-        <nav>
-            <a href="/webstudio/" class="logo nolink"> <span class="web">Web</span>Studio</a>
-            <ul class="site-nav list">
-                <li> <a href="" class="link current nolink">Студия</a></li>
-                <li> <a href="./portfolio.html" class="link nolink">Портфолио</a></li>
-                <li> <a href="" class="link nolink">Контакты</a></li>
-            </ul>
-        </nav>
-        <ul class="contact list">
-            <li>
-                <a href="mailto:info@devstudio.com" class="nolink">info@devstudio.com</a>
-            </li>
-            <li>
-                <a href="tel:+380961111111" class="nolink">+38 096 111 11 11</a>
-            </li>
-        </ul>
-    </header>
+    
+        <header class="bcg">
+            <div class="container">
+                <nav>
+                    <a href="/webstudio/" class="logo nolink"> <span class="web">Web</span>Studio</a>
+                    <ul class="site-nav list">
+                        <li> <a href="" class="link current nolink">Студия</a></li>
+                        <li> <a href="./portfolio.html" class="link nolink">Портфолио</a></li>
+                        <li> <a href="" class="link nolink">Контакты</a></li>
+                    </ul>
+                </nav>
+                <ul class="contact list">
+                    <li>
+                        <a href="mailto:info@devstudio.com" class="nolink">info@devstudio.com</a>
+                    </li>
+                    <li>
+                        <a href="tel:+380961111111" class="nolink">+38 096 111 11 11</a>
+                    </li>
+                </ul>
+            </div>
+        </header>
+    
+   
     <main>
         <!--Голова сайту-->
-        <div class="head">
-            <section>
+            <section class="head">
                 <h1 class="head-titel">Эффективные решения для вашего бизнеса</h1>
                 <button class="button-primary pointer" type="button">Заказать услугу</button>
             </section>
-        </div>
         <!--Фундаментальні принципи роботи-->
         <section>
+            <div class="container">
+                <h2>Фундаментальные принципы работы</h2>
+                <ul class="list">
+                    <li>
+                        <h3 class="section-titel">Внимание к деталям</h3>
+                        <p class="work-text">Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
+                    </li>
+                    <li>
+                        <h3 class="section-titel">Пунктуальность</h3>
+                        <p class="work-text">Задача организации, в особенности же рамки и место обучения кадров влечет за собой.</p>
+                    </li>
+                    <li>
+                        <h3 class="section-titel">Планирование</h3>
+                        <p class="work-text">Равным образом консультация с широким активом в значительной степени обуславливает.</p>
+                    </li>
+                    <li>
+                        <h3 class="section-titel">Современные технологии</h3>
+                        <p class="work-text">Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
+                    </li>
+                </ul>
+            </div>
             <!--Сховати назву секції-->
-            <h2>Фундаментальные принципы работы</h2>
-            <ul class="list">
-                <li>
-                    <h3 class="section-titel">Внимание к деталям</h3>
-                    <p class="work-text">Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
-                </li>
-                <li>
-                    <h3 class="section-titel">Пунктуальность</h3>
-                    <p class="work-text">Задача организации, в особенности же рамки и место обучения кадров влечет за собой.</p>
-                </li>
-                <li>
-                    <h3 class="section-titel">Планирование</h3>
-                    <p class="work-text">Равным образом консультация с широким активом в значительной степени обуславливает.</p>
-                </li>
-                <li>
-                    <h3 class="section-titel">Современные технологии</h3>
-                    <p class="work-text">Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
-                </li>
-            </ul>
+            
         </section>
         <section>
             <h2 class="titel-work">Чем мы занимаемся</h2>
